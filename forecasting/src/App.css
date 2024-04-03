@@ -1,3 +1,13 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
 .headerTitle {
   color: rgb(13, 187, 230);
 }

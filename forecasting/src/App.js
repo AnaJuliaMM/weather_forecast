@@ -5,12 +5,12 @@ import Forecast from './components/forecast/Forecast.tsx';
 
 function App() {
   return (
-    <>
-      <h1 className='headerTitle'>Hello World</h1>
+    <div className='app'>
+      <h1 className='headerTitle'>Tempo Lá Fora</h1>
       <Search/>
       <Temperature/>
       <Forecast/>
-    </>
+    </div>
 
   );
 }
