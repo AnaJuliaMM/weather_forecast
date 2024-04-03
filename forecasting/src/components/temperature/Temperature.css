@@ -1,0 +1,17 @@
+.temperatureDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  border: solid;
+  border-radius: 5px;
+}
+.temperature {
+  font-size: xx-large;
+  font-weight: bold;
+}
+.temperatureLine {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
