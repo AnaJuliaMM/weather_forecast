@@ -6,8 +6,10 @@ body{
 .app{
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 50px;
 }
 .headerTitle {
   color: rgb(13, 187, 230);
+  text-align: center;
 }

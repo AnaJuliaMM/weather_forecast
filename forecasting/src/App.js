@@ -6,10 +6,13 @@ import Forecast from './components/forecast/Forecast.tsx';
 function App() {
   return (
     <div className='app'>
-      <h1 className='headerTitle'>Tempo Lá Fora</h1>
-      <Search/>
-      <Temperature/>
-      <Forecast/>
+      <header>
+        <h1 className='headerTitle'>Tempo Lá Fora</h1>
+        <Search />
+      </header>
+
+      <Temperature />
+      <Forecast />
     </div>
 
   );
