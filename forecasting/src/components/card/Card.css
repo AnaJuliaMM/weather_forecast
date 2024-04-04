@@ -1,0 +1,17 @@
+.cardDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 15px;
+  border-radius: 15px;
+
+
+  background-color: #14bad0;
+  color: #1d1d1d;
+}
+
+@media only screen and (min-width: 768px) {
+  .cardDiv {
+    padding: 0px 30px;
+  }
+}
