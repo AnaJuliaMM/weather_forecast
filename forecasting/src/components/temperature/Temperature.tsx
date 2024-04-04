@@ -8,8 +8,12 @@ export default function Temperature() {
       <p className="temperature">19°C</p>
       <p>Nublado</p>
       <span className="temperatureLine">
-        <p>Vento: X km/h</p>
-        <p>Umidade: Y%</p>
+        <p>
+          <strong>Vento:</strong> X km/h
+        </p>
+        <p>
+          <strong>Umidade:</strong> Y%
+        </p>
       </span>
     </div>
   );
