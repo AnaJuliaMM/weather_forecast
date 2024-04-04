@@ -1,6 +1,8 @@
 .searchDiv {
   display: flex;
-  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 .inputSpan input {
   display: flex;
@@ -10,7 +12,13 @@
   border-radius: 3px;
   padding: 5px;
 }
+.inputSpan input[type="text"] {
+  width: 30vw;
+}
+
 .inputSpan input[type="button"] {
   background-color: antiquewhite;
   font-weight: bold;
+  padding: 5px 10px;
+  cursor: pointer;
 }
